@@ -18,7 +18,8 @@
       <ion-select-option>Femenino</ion-select-option>
       <ion-select-option>Otro</ion-select-option>
     </ion-select>
-    <ion-button type="submit" size="block" color="warning">Registrar</ion-button>
+    <ion-button id="present-alert" [disabled]="persona.invalid" type="submit" size="block" color="warning">Registrar</ion-button>
+    <ion-alert trigger="present-alert" header="alert!" [buttons]="alertButtons" (didDismiss)="setResult($event)"></ion-alert>
   </form>
   <!--Esto es para testear -->>
   <p>{{persona.value | json}}</p>
