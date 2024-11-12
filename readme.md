@@ -39,3 +39,7 @@ Para instalar y ejecutar la aplicación ReservaCancha, sigue estos pasos:
 
 
 Este README cubre la información esencial sobre el proyecto, su instalación y la justificación para su desarrollo. Puedes ajustar los detalles según tus necesidades específicas.
+
+# **Link QR:
+
+https://www.npmjs.com/package/angularx-qrcode
